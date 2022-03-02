@@ -37,7 +37,7 @@ export default function Avatar() {
                             <Link to="/setting">Setting</Link>
                         </li>
                         <li>
-                            <a onClick={handleLogout}>Log out</a>
+                            <button onClick={handleLogout}>Log out</button>
                         </li>
                     </ul>
                 </nav>
